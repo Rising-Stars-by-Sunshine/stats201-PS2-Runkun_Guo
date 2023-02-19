@@ -1,4 +1,4 @@
-# Title [How to Choice a Good Title?](https://www.nature.com/articles/s41562-021-01152-2)
+# PS2
 ## Project information
 - **Author**: Runkun Guo, Applied Mathematics, 2023 , Duke Kunshan University
 - **Instructor**: Prof. Luyao Zhang, Duke Kunshan University
@@ -6,40 +6,33 @@
 - **Acknowledgments**: [How to Acknowledge?](https://www.scribbr.co.uk/thesis-dissertation/acknowledgements/)
 [notes: please include all professors, students, and staff who have contributed to your completetion of the project.]
 - **Project Summary**: 
-  - [Summarize the Background/Motivation]
-  - [Research Questions]
-  - [Application Scenario (Data Source)]
-  - [Methodology]
-  - [Results]
-  - [Intellectual Merits and Practical impacts of your project.]
+  - Background: To predict the outcome of a certain soccer match may have a petential commercial value. We tried to find the correlation between the total number of shooting and the total number of goals in a match as a part of outcome of a match. Not many scholars are still doing research on this quite traditional gambling game theory. Thus, I want to make some improvements to this field.
+  - Research Question: Does the number of shootings has correlation with the number of goals in a certain soccer match?
+  - Data Source: I use the data queried from football.data.co.uk website which is a gambling website that records all the historical data for football matches in UK
+  - Methods: I tried to use linear regression to predict the total numner of goals given a number of shooting and I also tried Ramdom forest Regression. Besides, I also consider the number of goals as a group of classes and I use Decision Tree Classifier to get the confusion matrix.
+  - Results: From the Regression part, I found out that the accuracy of Random Forest Regression is only 19.49%. For the decision tree classification, the accuracy of f1 score is 22%. I may conclude that there's no direct or few connection between the total number of shooting and the number of goals.
+  - Intellectual Merits: The result is quite opposite to my expectation that this two variables have few connections. In the beginging, I found out that the accuracy of regression is not very high, thus I try to make the discrete number as different classes and use the Decision Tree Classifier to make a prediction. However, the accuracy is still ideal enough. Therefore, based on my simulation resultes, I could only conclude my X and Y have few connections now. In the future, I may try to make my data more suitable for the models and may try to consider the discrete number into one-hot code for classification part to improve the accuracy
 
 ## Table of Contents
-- data
-- code
-- spotlight
-
+- [data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/tree/main/data)
+- [code](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/tree/main/Code)
+- [spotlight](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/tree/main/spotlight)
 
 
 ## Data
-- Data Source:
-- Queried Data
-- Processed Data
-- ...
+- [Data Source](https://www.football-data.co.uk/data.php)
+- [Queried Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/blob/main/data/E0.csv)
+- [Processed Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/tree/main/data/Data)
+
 
 
 ## Code
-- Query Data
-- Process Data
-- Analyze Data
-- ...
+- [Query Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/blob/main/Code/Query_Data_Runkun_Guo.ipynb)
+- [Process Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/blob/main/Code/Process_Data_PrepareX%26Y_Variable_Runkun_Guo.ipynb)
+- [Analyze Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/blob/main/Code/“Analyze_Data_Predicting_Runkun_Guo_ipynb”.ipynb)
 
 ## Spotlight
-- Figures
-- Posters
-- Slides
-- Presentations
-- Review articles
-- Media appearance
+
 
 ## References
 
