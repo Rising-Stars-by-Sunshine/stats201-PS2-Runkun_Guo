@@ -41,14 +41,18 @@
 
 ## Spotlight
 <img width="607" alt="Linear Regression" src="https://user-images.githubusercontent.com/99957590/219958742-ba824161-dab4-40f6-b729-cf0900894a7e.png">
-
+This figure is the prediction distribution under Linear Regression. It's obvious that the regression is not very ideal.
+<img width="542" alt="Random Forest" src="https://user-images.githubusercontent.com/99957590/219958863-f8c3ee77-e063-454a-9fcb-8e831eca2792.png">
+This figure is the prediction distribution under Random Forest. 
+<img width="503" alt="Decision Tree correlation" src="https://user-images.githubusercontent.com/99957590/219958872-ba56cf01-dd29-486f-bb52-43f2cb5ded80.png">
+This Figure is the confusion matrix under Decision Tree. We can see that only few classes have a relatively strong correlation. 
 
 ## References
 
 ### Data Source
-- Data Source Title and URL
+[Football data UK](https://www.football-data.co.uk/data.php)
 ### Code Source
-- Code Source Title and URL
+[Luyao Zhang's Sample Code](https://github.com/Rising-Stars-by-Sunshine/stats201-tutorial-prediction)
 ### Articles
 - Article Source Title and URL
 ### Literature
