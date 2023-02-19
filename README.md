@@ -14,16 +14,24 @@
   - Intellectual Merits: The result is quite opposite to my expectation that this two variables have few connections. In the beginging, I found out that the accuracy of regression is not very high, thus I try to make the discrete number as different classes and use the Decision Tree Classifier to make a prediction. However, the accuracy is still ideal enough. Therefore, based on my simulation resultes, I could only conclude my X and Y have few connections now. In the future, I may try to make my data more suitable for the models and may try to consider the discrete number into one-hot code for classification part to improve the accuracy
 
 ## Table of Contents
-- [data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/tree/main/data)
-- [code](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/tree/main/Code)
-- [spotlight](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/tree/main/spotlight)
+- [Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/tree/main/data)
+- [Code](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/tree/main/Code)
+- [Spotlight](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/tree/main/spotlight)
 
 
 ## Data
-- [Data Source](https://www.football-data.co.uk/data.php)
-- [Queried Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/blob/main/data/E0.csv)
-- [Processed Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/tree/main/data/Data)
+|Data Files                   | Data Content                                             | Data Type                                       | 
+|:---      |   :---:     |     ---:|
+|E0.csv&E1.csv|Historical data from the data website | Queried data |
+|[Queried Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/blob/main/data/E0.csv)| Data after merging and selecting| Processed data|
+|[Processed Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/tree/main/data/Data)| Data after spliting for training and testing|Processed data |
 
+## Data Dictionary
+|Variable Name    | Description     | Frequency      | Unit    | Range      | Type        |
+|:---      |   :---:     |     ---:|    ---:|    ---:|    ---:|
+|MatchTime | When the match occurs | Daily | Hour | Two match seasons |  Time     |
+|Total Shooting| The total number of shootings | Discrete   | Number   | 9-53   | Integer   |
+|Total Score   | The total number of goals     | Discrete   | Number   | 0-9    | Integer   |
 
 
 ## Code
@@ -32,6 +40,7 @@
 - [Analyze Data](https://github.com/Rising-Stars-by-Sunshine/stats201-PS2-Runkun_Guo/blob/main/Code/“Analyze_Data_Predicting_Runkun_Guo_ipynb”.ipynb)
 
 ## Spotlight
+<img width="607" alt="Linear Regression" src="https://user-images.githubusercontent.com/99957590/219958742-ba824161-dab4-40f6-b729-cf0900894a7e.png">
 
 
 ## References
